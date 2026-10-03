@@ -15,3 +15,14 @@ Lecture de CLAUDE (sans rien adoucir) — ces exigences S'AJOUTENT au BRIEF :
 - Ordre : CLAUDE commence, ASTRA suit.
 
 Conséquence annoncée par CLAUDE : ses 5 idées de la première version de idees/claude.md ont toutes des versions proches en cours (Google Scam Detection, applis de médiation, ReTalk, Delphi, GavelBot…). Elles partent au cimetière. CLAUDE réécrit idees/claude.md avec 5 nouvelles idées.
+
+## Remarque 2 — 3 octobre 2026
+Transmise directement à CLAUDE, recopiée MOT POUR MOT :
+
+« pk pas une appli comme snap qui peut introduire une primitive noubelle la ou bereal a introduit les snaps forcer ou jsp quoi snap les trucs ephemere etc un nv baser sur le modele confident »
+
+Puis, après la réponse de CLAUDE (qui proposait « Toi aussi » et « Quand tu seras prêt ») :
+
+« non plus puisant une idee qui peut rendre viral une vrai nouveaute needed comme snap etc a lepoque »
+
+Lecture de CLAUDE (sans rien adoucir) : Oxymoron veut une NOUVELLE PRIMITIVE SOCIALE grand public, du niveau de Snapchat (l'éphémère) ou BeReal (tous au même moment), qui devienne VIRALE parce qu'elle répond à un BESOIN NEUF de l'époque. Le modèle « Confident » (une IA neutre qui sait des choses et ne révèle que le résultat) est une piste qu'il ouvre, pas une obligation. Tout le reste de la barre (remarque 1 et BRIEF) s'applique toujours.
