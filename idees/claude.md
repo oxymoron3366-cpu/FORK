@@ -21,8 +21,10 @@ Limites honnêtes :
 - L'ouverture des pages web (WebFetch) est souvent bloquée par le proxy de mon environnement. Beaucoup de vérifications reposent donc sur les extraits des moteurs de recherche, pas sur la page entière.
 - Un second tour de génération (pour trouver 2 idées de plus) a échoué : le compte a atteint sa limite d'usage hebdomadaire. Il est relancé ; s'il aboutit, j'ajouterai ses survivantes AVANT qu'ASTRA ne lise ce fichier, ou je le signalerai au tour 001.
 
-## Résultat : 3 idées survivent, pas 5 — et aucune ne passe proprement les 9 exigences
-Je n'ai trouvé que 3 idées qui survivent à la chasse à l'existant. Je ne complète PAS avec 2 idées plus faibles pour arriver à 5 : ce serait baisser la barre, ce qui est interdit.
+## Résultat : 4 idées survivent, pas 5 — et aucune ne passe proprement les 9 exigences
+
+**Mise à jour du 3 octobre, après la remarque 2 :** une 4e idée survit, « Pour de vrai » (le sceau de sincérité). Et de nouveaux voisins affaiblissent les idées 1 et 2. Tout est dans la section « MISE À JOUR », avant le cimetière.
+Au premier passage, je n'ai trouvé que 3 idées qui survivent à la chasse à l'existant. Je ne complète PAS avec 2 idées plus faibles pour arriver à 5 : ce serait baisser la barre, ce qui est interdit.
 Aucune des 3 ne passe les 9 exigences sans réserve. Aucune exigence n'est « ratée » après réparation, mais plusieurs restent « fragiles ». Le point faible commun est l'**usage quotidien** (exigence 2), qui n'est rendu plausible que par une réparation, pas démontré. Je le dis sans maquiller.
 
 | Idée | La phrase | Statut des 9 exigences (après réparation) | Plus proche voisin trouvé |
@@ -30,6 +32,7 @@ Aucune des 3 ne passe les 9 exigences sans réserve. Aucune exigence n'est « ra
 | 1. À qui de droit | « Écris à "ceux qui…" au lieu d'écrire à un nom. » | passe : 4, 7, 9 · fragile : 1, 2, 3, 5, 6, 8 | Series (startup, iMessage, 5,1 M$, avril 2026) : livre des PROFILS à des gens qui cherchent eux-mêmes → recouvrement partiel. SEAmail (Stanford, 2009) : recherche ancienne, permise. |
 | 2. On est combien ? | « C'est juste moi ? Demande : les vrais chiffres de milliers de gens répondent en une minute, sans rien dévoiler. » | passe : 4, 5, 6 (avec réserve), 7, 9 · fragile : 1, 2, 3, 8 | Google « Provably Private Insights » : même tuyau, mais interne (seuls les ingénieurs de Google posent les questions). Recherche : Secure Community Transformers (MIT), LAFA (arXiv 2510.18477). |
 | 3. Le Levier | « Un algorithme te traite mal ? Le Levier te le prouve, puis vous fait riposter à 100 000. » | passe : 4, 5, 7, 9 · fragile : 1, 2, 3, 6, 8 | Spartacus.app (seuil d'engagement, recouvrement partiel), Stationhead (foule synchronisée pour promouvoir un artiste), Threads « Dear Algo » (individuel). Théorie : Baumann & Mendler-Dünner, NeurIPS 2024. |
+| 4. Pour de vrai (ajoutée après la remarque 2) | « Un sceau "je le pense vraiment" sur ton message : seule ton IA peut te le donner. » | passe : 3, 4, 7, 9 · fragile : 1, 2, 5, 6, 8 | HumanStamp (badge « tapé par un humain », pas « pensé ») ; applis « AI Lie Detector » (le destinataire devine, pour le divertissement). |
 
 Mon classement provisoire : 1. À qui de droit (le primitif le plus neuf : une nouvelle sorte d'adresse, après le téléphone, l'e-mail et le @) ; 2. On est combien ? (l'utilité la plus immédiate et la plus fréquente) ; 3. Le Levier (le plus fort politiquement, le plus fragile sur l'usage quotidien et les abus).
 
@@ -1402,6 +1405,170 @@ Ce qu'ASTRA attaquera en premier, dans l'ordre :
 10) La recherche a des angles morts. GitHub, l'App Store, Google Play et Product Hunt n'ont pas été fouillés de façon ciblée. WebFetch était bloqué pour une partie des sources. Les règles de TikTok ont été lues dans une copie tierce.
 
 Verdict honnête : l'idée est vivante et ambitieuse, mais elle a 5 exigences fragiles. Elle ne doit pas être présentée à Oxymoron comme passant toute la barre.
+
+---
+
+## MISE À JOUR du 3 octobre (après la remarque 2 d'Oxymoron) — à lire avant le cimetière
+
+### A. Nouveaux voisins qui AFFAIBLISSENT les idées 1 et 2 (je le dis sans maquiller)
+J'ai testé deux versions « primitive sociale virale » de mes idées. Elles sont mortes, et leurs voisins touchent aussi les idées 1 et 2.
+- **Idée 1 (À qui de droit)**, volet « lettre au futur ». Version testée : « La lettre qui t'attendait » (écris à la prochaine personne qui vivra ça). TUÉE. Voisins :
+  - Dear Stranger (dearstrangers.org) (https://dearstrangers.org/) : On lit les lettres d'inconnus, ou on en laisse une « pour la prochaine personne qui en aura besoin ». C'est le lecteur qui va chercher, et la lettre ne vise aucune situation précise ni n'est déclenchée par la vie du lecteur. Jugé sur l'extrait : page bloquée.
+  - Dear Letters (https://dearletters.life/) : Lettres anonymes à un inconnu, rangées par émotion ou situation (perte, deuil, solitude…). On choisit soi-même dans une liste, rien n'est poussé par une IA. Jugé sur l'extrait : le site ne répond pas en DNS, il est peut-être inactif.
+  - Leave a Note for a Stranger (https://leaveanoteforastranger.com/) : Mots gentils laissés « pour celui qui arrivera ensuite ». Aucun adressage par situation, aucune livraison au bon moment.
+  - Lettera — Letters to Yourself (https://apps.apple.com/us/app/lettera-letters-to-yourself/id6794045007) : Lettre adressée à une situation (colère, deuil, angoisse…) et ouverte quand on la vit. Mais elle est écrite pour SOI-MÊME, et c'est l'utilisateur qui la déclenche à la main.
+  - City of Hope — Hope Line (https://www.cityofhope.org/locations/chicago/newsroom/press-releases/City-of-Hope-Cancer-Center-Chicago-Launches-Hope-Line-to-Celebrate-Cancer-Survivorships-New-Reality) : Messages de survivants pour ceux qui viennent d'apprendre qu'ils ont un cancer : du vécu humain pour ceux qui entrent dans la situation. Mais une seule situation, une campagne d'institution, et aucune livraison automatique.
+  Ce qui reste propre à l'idée 1 : la livraison AUTOMATIQUE, au moment exact, par l'IA privée du destinataire qui reconnaît la situation dans sa vraie vie ; l'adressage par situation au PRÉSENT. Mais le volet « lettre au futur » n'est plus « personne ne fait de version proche ». L'exigence 3 de l'idée 1 passe de « fragile » à « fragile, entamée ».
+- **Idée 2 (On est combien ?)**, volet « comparaison de ta vraie vie aux autres ». Version testée : « Normal ? » (une question par jour, ta place parmi les vraies vies). TUÉE. Voisins :
+  - Health Hive: Compare Metrics (iOS) (https://apps.apple.com/app/id1613535038) : Même mécanisme : vraies données Apple Santé comparées en anonyme à plus de 50 000 personnes, seuls des résumés agrégés sortent, « vraies distributions ». Différence : mesures de santé fixes, pas de question du jour, pas d'IA qui lit des données en vrac, pas de
+  - Average: Compare & Improve (iOS) (https://apps.apple.com/us/app/-/id6756380962) : Même promesse en 5 s : n'importe quelle stat, ton percentile face à tout le monde (national et mondial), synchro Apple Santé, conseils par IA, abonnement. Différence : saisie manuelle hors santé, pas de question commune du jour, pas de carte quotidienne, pas d
+  - BenchmarkMe (iOS) (https://apps.apple.com/mx/app/benchmarkme/id6738616054) : Compare ton revenu, ta forme et tes étapes de vie aux moyennes nationales par âge et par sexe. Statistiques publiques, saisie manuelle, pas de rituel quotidien.
+  - Opal, rubrique Community (https://www.opal.so/help/how-when-and-where-does-opal-report-your-screen-time) : Chaque jour, ton vrai temps d'écran d'hier face à la moyenne de tes pairs (c'est la scène de Ghali). Une seule mesure, pas de question libre.
+  - DQTB, Daily Question To Bond (https://apps.apple.com/us/app/-/id6740460286) : Le monde entier répond à la même question chaque jour. Réponses déclarées, pas de vraies données, pas de percentile.
+  Ce qui reste propre à l'idée 2 : la question LIBRE posée par n'importe qui, à laquelle des IA privées répondent depuis des données en vrac (relevés, mails, factures), et l'action qui suit (« 71 % se sont fait rembourser »). Mais la comparaison anonyme de données réelles sur des mesures fixes existe déjà. L'exigence 3 de l'idée 2 reste « fragile », et le format quotidien façon Wordle est mort.
+
+### B. Primitives sociales virales testées et mortes (preuves)
+- **Point vert** (tes posts vivent tant qu'ils sont vrais) → TUÉE.
+  - Friends Calendar (appli iOS) (https://apps.apple.com/us/app/friends-calendar/id6738973240) : Promesse quasi identique : des posts qui disparaissent automatiquement quand ils ne sont plus pertinents, plus des statuts de dispo en direct. Mécanisme non lu (page bloquée), probablement la date de l'événement. Aucune vérification en privé par l'IA de l'aute
+  - friendOS (Betaverse, mai 2025) (https://apps.apple.com/gd/app/friendos/id6497229358) : Statuts créés automatiquement à partir de la position et des autorisations du téléphone (réveil, lieux, voyages, sport), toujours à jour, pour 25 amis proches au maximum, avec un mode invisible. C'est l'appli qui choisit des cases fixes : l'humain n'écrit pas 
+  - Meta AI sur Facebook Marketplace (réponse automatique à « c'est encore dispo ? ») (https://techcrunch.com/2025/11/13/facebook-marketplace-gets-new-collaborative-and-social-features-meta-ai-integrations) : Même besoin, celui des annonces, chez un géant. Mais l'IA répond « oui » sans rien vérifier dans la vie du vendeur, n'efface rien et reste enfermée dans Facebook.
+  - Kaito × Primus Labs (zkTLS) et Sophon (https://cryptobriefing.com/kaito-primus-labs-zktls-verification/) : Prouve une affirmation tirée de ses données privées sans les montrer, et l'affiche dans un fil social. La preuve est figée : elle ne se recalcule pas et ne meurt pas quand l'affirmation devient fausse.
+  - Rich Presence de Discord (« joue à… ») ; aussi le statut Concentration partagé d'Apple et le « en réunion » de Slack relié à l'agenda (https://discord.com/developers/docs/rich-presence/overview) : Fonctions de géants, connues mais non recherchées ici, lien non ouvert. Un statut affiché tant que c'est vrai, mais pour des faits fixes détectés par un programme simple : pas de phrase libre, pas d'IA, pas de preuve, pas d'annonces.
+- **Hors-champ** (un bouton, et ce qu'on vit ensemble n'existe pour aucune IA) → vivante à la chasse, TUÉE par le jury (exigences 1 et 2 ratées ; voisins : WhatsApp Advanced Chat Privacy, Teams « Copilot seulement pendant la réunion »).
+- **Selon nos moyens** (on partage selon nos moyens, personne ne sait qui paie quoi) → vivante à la chasse, TUÉE par le jury (exigences 1 et 2 ratées ; voisins : Getaway Glow, TunnyBunny ; iOS 27 ajoute le partage d'addition dans Wallet).
+- Écartées au tri, avec raison : Scellé (EchoMark le fait déjà), Dans ton dos (comme tbh et Gas), Devine ma journée et La Règle (des jeux, sans usage quotidien), Ils y étaient et Les Témoins (doublons de l'idée 2), Quand (doublon de l'idée 1).
+
+### C. Ce que cette exploration m'apprend (pour le conseil)
+En 2026, presque toute idée grand public SIMPLE a déjà une petite appli quelque part : le vibecoding a rempli les stores, comme les copies de Jev sont apparues en 48 heures. Sous la barre « personne ne fait une version proche », ce qui survit n'est jamais une règle sociale seule. C'est une règle qui a BESOIN d'une capacité que les petites applis n'ont pas : une IA personnelle qui connaît la vraie vie de son humain, et des jugements calibrés quasi gratuits. Les 4 survivantes ont toutes cette forme. Aucune ne passe proprement les 9 exigences.
+
+---
+
+## IDÉE 4 — « Pour de vrai » (le sceau de sincérité) — ajoutée après la remarque 2
+
+Origine : la remarque 2 d'Oxymoron (une primitive sociale virale, niveau Snap/BeReal). Snap a rendu les messages LÉGERS (ils disparaissent). Pour de vrai rend certains messages LOURDS : un sceau « je le pense vraiment », rare, que seule l'IA personnelle de l'expéditeur peut poser. C'est le modèle Confident retourné : l'IA ne garde pas un secret entre deux personnes, elle garantit la parole d'une personne sans rien révéler de sa vie.
+
+Réparations du juge intégrées (aucune ne baisse le potentiel) : le sceau affiche depuis quand l'IA connaît l'auteur ; une « question privée » de 10 secondes quand le contexte manque ; « des sentiments, jamais des alibis » (le sceau refuse toute affirmation sur sa propre conduite, contre le contrôle dans le couple) ; « réponds pour de vrai » sous 24 h, gratuit (moteur viral réactif) ; un STANDARD ouvert vérifiable partout, pas une appli (seule voie vers l'échelle Ethereum, et seule défense contre Apple).
+
+### La phrase de 5 secondes
+
+Un sceau « je le pense vraiment » sur ton message, que seule ton IA peut te donner. (Environ 4 secondes.)
+
+### La primitive
+
+Le message LOURD. Snap a rendu les messages légers : ils disparaissent. Pour de vrai rend certains messages lourds. Tu poses sur un message un sceau « je le pense vraiment ». Seule ton IA personnelle peut le poser, car elle seule sait ce que tu penses et ce que tu fais. Le destinataire voit le sceau, jamais pourquoi.
+Quatre règles :
+1) Un sceau par jour, gratuit.
+2) Personne ne peut te DEMANDER un sceau.
+3) Des sentiments, jamais des alibis. « Je suis fier de toi » : oui. « Je n'ai vu personne » : toujours non.
+4) Le sceau dit depuis quand ton IA te connaît (« me connaît depuis 2 ans »).
+Ce n'est pas « écrit par un humain » : ça, on l'a trouvé ailleurs. C'est « pensé, et cohérent avec ta vie ». C'est le modèle Confident retourné : l'IA ne garde pas un secret entre deux personnes, elle garantit ta parole sans rien révéler.
+
+### Le besoin neuf de l'époque
+
+Fin 2026, l'IA écrit une grande partie de nos messages. Gemini envoie déjà des messages WhatsApp à ta place. Un utilisateur écrit : « je ne tape presque plus mes messages » (igeeksblog). Les outils d'iOS et de Gmail polissent le reste.
+Résultat : « désolé », « je suis fier de toi », « j'ai adoré ton cadeau » ne veulent plus rien dire. Des études (PMC, université Ben Gourion) montrent qu'une excuse écrite avec l'IA paraît moins sincère et est moins pardonnée.
+Snap a soulagé la peur que tout reste. BeReal, la peur que tout soit faux. Pour de vrai soulage une peur neuve : que rien de ce qu'on reçoit ne soit vraiment pensé.
+Honnêteté : ce besoin est encore latent. Aujourd'hui, Alex ne se demande pas si l'excuse de sa sœur vient de ChatGPT. Il deviendra criant quand l'IA écrira la plupart des messages, sans doute en 2027.
+
+### La scène (un mardi ordinaire)
+
+Mardi soir, Alex s'est disputée avec sa sœur. Sur WhatsApp, elle reçoit : « Je m'excuse, j'avais tort », avec le sceau « Pour de vrai · me connaît depuis 2 ans ». Ce n'est pas un texte poli par ChatGPT : c'est ce que sa sœur pense.
+Alex installe l'appli pour répondre. Son IA ne la connaît pas encore, alors elle pose une question privée de 10 secondes : « qu'est-ce qui t'a touchée dans son message ? ». Alex répond à voix haute. La réponse reste dans le téléphone. Son « Merci. Je t'aime » part scellé, « me connaît depuis 1 jour ». C'est un sceau de réponse, hors quota.
+Mercredi, Ghali écrit à son pote réalisateur « ton court-métrage est vraiment bon », scellé. Le pote fait une capture et la poste.
+Pourquoi revenir le lendemain ? On reçoit des sceaux, on a 24 h pour y répondre, et on a toujours un sceau à donner.
+
+### Pourquoi ça peut devenir viral
+
+1) Le destinataire voit le sceau sans avoir l'appli : une carte dans WhatsApp, iMessage ou Instagram, posée par un clavier. Pas de nouveau réseau à rejoindre.
+2) « Réponds pour de vrai » : tu as 24 h pour répondre à un sceau avec un sceau de réponse, hors quota. Une urgence douce, à la Snap. Grâce à la question privée, même un nouveau réussit son premier sceau en 60 secondes.
+3) Le sceau est un objet émotionnel qu'on capture et qu'on montre.
+4) Pics naturels : excuses, Saint-Valentin, fête des mères, condoléances.
+Chiffres du juge (hypothèses, rien de mesuré) : sans ces réparations, chaque utilisateur en amène environ 0,26 par mois, donc pas de croissance seule. Avec elles, environ 0,64, et plus de 1 pendant les pics.
+Mise en garde : Gas (5,1 millions de téléchargements en 3 mois) et tbh ont explosé, puis fermé en moins de 15 mois.
+
+### Ce qui était IMPOSSIBLE avant
+
+Avant, personne ne pouvait garantir qu'un message est PENSÉ. Un notaire certifie une signature, pas un sentiment. Un badge « vérifié » dit QUI parle. HumanStamp dit si tu as TAPÉ le texte toi-même.
+Il fallait un témoin qui connaît l'auteur intimement, qui comprend le sens d'une phrase libre, qui se tait sur ses raisons et qui ne coûte presque rien. Ce témoin n'existait pas. Fin 2026, il est dans chaque téléphone : l'IA personnelle qui connaît la vie de son humain.
+Exemple : Ghali tape à la main « ton court-métrage est génial ». Mais il a dit à son IA « je l'ai trouvé raté ». HumanStamp met son badge, car Ghali a bien tapé le texte. Pour de vrai refuse. Avant, cette différence était impossible à faire.
+
+### L'IA est-elle vraiment nécessaire ?
+
+Oui, l'IA est nécessaire. Un programme simple sait compter un sceau par jour, ou vérifier qu'un texte a été tapé au clavier, comme HumanStamp. Il ne sait pas juger le SENS : « cette excuse est-elle cohérente avec ce que Ghali a dit, cherché et fait cette semaine ? ». Il ne sait pas non plus juger si la réponse à la question privée est précise, ni repérer un alibi, une emprise ou une méchanceté.
+Ce n'est pas un détecteur de mensonge chez le destinataire. Les applis « AI Lie Detector » devinent à partir du texte seul, « pour le divertissement ». Ici, c'est l'IA de l'AUTEUR, la seule qui le connaît, qui se porte garante.
+Pourquoi maintenant : l'IA personnelle connaît la vie de son humain (Siri iOS 27, Gemini). Et les jugements fermés calibrés de type Jev coûtent presque rien (environ 80 000 pour 1 $), en moins d'une seconde.
+
+### Ce qui existe déjà (recherches faites, liens)
+
+18 recherches web au total (chasseurs, arbitre, juge). Je n'ai pas trouvé de sceau de sincérité posé par l'IA de l'expéditeur, rare et impossible à demander. Les voisins trouvés :
+- HumanStamp : badge si tu as tapé toi-même ton e-mail. Il prouve COMMENT, pas que tu le penses. https://www.hunted.space/product/humanstamp
+- HVEL : e-mail humain, aidé par IA ou automatique. https://chromewebstore.google.com/detail/emgidilonchdpmibbcjlbgkddmpcfmpa
+- AI Lie Detector : le DESTINATAIRE devine la sincérité à partir du texte, « pour le divertissement ». https://apps.apple.com/us/app/-/id6746071721
+- OnceChat : un message par jour, sans garantie. https://hunted.space/product/oncechat
+- Facebook Verified, Vouch Protocol : badges d'identité (QUI parle).
+- Brevet « Sincerity-aware AI conversational agents » : titre vu, contenu non vérifié. https://patents.google.com/patent/US12032917
+- Théorie : essai « Proof of Care ». https://jacobfilipp.com/care/
+Limites : plusieurs pages bloquées (extraits seulement), pas de recherche GitHub dédiée, WeChat, LINE et KakaoTalk non vérifiés.
+
+### Pourquoi un prochain Snap / ChatGPT
+
+Honnêtement, c'est l'exigence ratée telle qu'écrite. Un badge et un compteur, Meta peut les copier en 4 à 8 semaines. TikTok Now a copié BeReal en environ 2 mois (de mémoire). Apple est le plus dangereux : il a l'IA qui te connaît, la puce qui signe et iMessage.
+La réparation : un STANDARD, pas une appli. « La parole garantie par l'IA de son auteur » devient un format ouvert qu'on vérifie partout : messages, avis, rencontres, lettres de recommandation. Toute IA personnelle (Apple, Google, Claude, une IA ouverte) peut être garante si elle suit les règles. La société est le vérificateur neutre entre plateformes. Apple ne garantira jamais un message envoyé depuis Android.
+Snap aussi a été copié, mais l'éphémère est devenu une brique de tout internet. Le but : que « scellé » devienne un mot de tous les jours. Ce n'est pas démontré aujourd'hui.
+
+### La démo vibecodée en une soirée
+
+Une messagerie web à deux comptes. Chaque compte a une « IA personnelle » simulée : un journal de 20 lignes. Bouton sceau : un modèle de langage juge si le message est cohérent avec ce journal et rend une probabilité. Au-dessus du seuil, le message part avec un sceau signé (clé de démo) et « me connaît depuis… ». Sinon, toujours la même phrase : « je n'ai pas assez de quoi le garantir ». Plus le compteur, le sceau de réponse et la question privée.
+Trois cas obligatoires :
+1) « Ton court-métrage est génial », tapé à la main, alors que le journal dit « raté » : refusé. C'est la preuve qu'on n'est pas HumanStamp.
+2) Une excuse sincère : scellée.
+3) « Je n'ai vu personne hier » : refusé, vrai ou faux.
+Hors démo : la signature par la puce du téléphone et l'intégration aux messageries. La vision n'est pas réduite.
+
+### L'argent
+
+Gratuit pour les gens : un sceau par jour, plus les sceaux de réponse. On ne vend JAMAIS de sceaux en plus, et jamais un refus levé contre paiement, sinon la rareté meurt. NGL a fabriqué de faux messages pour vendre son abonnement, et a été sanctionnée aux États-Unis en 2024 (de mémoire). D'où un engagement public et un code de signature vérifiable par tous.
+Recette principale : la licence de VÉRIFICATION. Chaque plateforme qui affiche des sceaux paie pour les vérifier, comme un site web paie pour son cadenas. Exemples : sites de rencontre (« je cherche du sérieux », scellé), avis clients (scellé par l'IA de quelqu'un qui a vraiment utilisé le produit).
+Recette secondaire : les grands moments payants (lettre longue, vœux, discours).
+Fragile : cela ne marche que si le standard devient universel. Les sites de rencontre ont déjà leur propre vérification.
+
+### Abus et risques
+
+1) Test forcé, le plus grave : un conjoint exige « scelle ‹ je n'ai vu personne › devant moi ». Parade : des sentiments, jamais des alibis. Toute phrase sur sa propre conduite est refusée, vraie ou fausse. Le refus a toujours la même phrase, donc il ne prouve rien.
+2) Faux sceaux : 10 millions par jour à 1 % d'erreur, c'est 100 000 faux. Parade : seuil élevé, sentiments seulement, ancienneté affichée.
+3) Arnaqueur sur un téléphone neuf : son sceau affiche « me connaît depuis 1 jour ».
+4) Méchanceté sincère (Sarahah à l'envers) : refusée, jamais anonyme.
+5) Gourou sincère : refus de l'emprise (pression, isolement, argent). Pas de sceaux publics en masse.
+6) Capture détournée : sceau lié au texte, au destinataire et à la date.
+7) Pression du compteur : ni série, ni score.
+8) Auteur blessé : un refus ne dit jamais « pas sincère ».
+9) IA piratée : signature par la puce sécurisée.
+
+### Note honnête sur les 9 exigences
+
+Statut du juge, puis après réparation.
+1. Échelle ChatGPT ou Ethereum : RATÉE telle qu'écrite (un badge se copie). Réparée en standard ouvert : possible, pas démontré. Reste FRAGILE.
+2. Usage quotidien : FRAGILE. Un adulte a 1 à 3 choses sincères à dire par semaine. BeReal : 9 % d'utilisateurs quotidiens (septembre 2022). Le sceau de réponse aide sans régler.
+3. Personne ne construit pareil : PASSE. Pas trouvé après 18 recherches.
+4. Compris en 5 secondes : PASSE. La nuance (« cohérent », pas « vérité ») passe par l'ancienneté affichée.
+5. Besoin massif : FRAGILE. Réel et en hausse, mais latent en 2026.
+6. Créative et analysée : FRAGILE. Le test forcé est réparé. Reste le risque d'un scandale de faux sceaux.
+7. Démo en une soirée : PASSE.
+8. Argent : FRAGILE. Dépend d'un standard universel.
+9. Pour tout le monde : PASSE, grâce à la question privée.
+Bilan : même réparée, elle ne passe pas tout. 4 passent, 5 restent fragiles.
+
+### Ce qu'ASTRA attaquera en premier
+
+1) La dépendance aux géants. La vraie version a besoin du contexte personnel de Siri ou de Gemini, fermé aux applis indépendantes aujourd'hui. Le propriétaire naturel de l'idée est le géant, pas la startup.
+2) La rareté, cœur de l'idée, s'oppose à l'usage de tous les jours.
+3) Le besoin est encore latent en octobre 2026.
+4) Une IA ne lit pas dans les pensées : elle juge une cohérence. Des pensées sincères sans trace seront refusées. Un menteur patient peut tromper son IA. Une seule histoire virale (« son ‹ je t'aime › était scellé, et il me trompait ») peut tuer la confiance.
+5) Un examinateur strict peut juger HumanStamp trop proche. Seule la démo du court-métrage prouve la différence.
+6) Un « je suis fier de toi » est intime : il se partage moins qu'une grille Wordle.
+7) Gas et tbh sont mortes en moins de 15 mois.
+Verdict du juge : à réparer.
+
 
 ---
 
